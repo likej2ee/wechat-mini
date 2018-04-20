@@ -1,0 +1,64 @@
+.container {
+  align-items: flex-start;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+
+  height: 0;
+
+  content: '\0020';
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.rel {
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.one-line {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.line {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.line-one {
+  -webkit-line-clamp: 1;
+}
+
+.line-two {
+  -webkit-line-clamp: 2;
+}

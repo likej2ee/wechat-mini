@@ -1,0 +1,29 @@
+{
+  "name": "wxmini-seeds",
+  "version": "1.0.0",
+  "description": "让小程序支持sass",
+  "author": {
+    "name": "likej2ee",
+    "email": "likej2ee@qq.com",
+    "url": "https://github.com/likej2ee"
+  },
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "reset": "gulp reset"
+  },
+  "keywords": [
+    "scss",
+    "wxss"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "prompt": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}

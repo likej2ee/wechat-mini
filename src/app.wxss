@@ -1,0 +1,68 @@
+page {
+  font-size: 15px;
+  line-height: 1.4rem;
+  box-sizing: border-box; }
+
+.container {
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%; }
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  content: '\0020'; }
+
+.clearfix {
+  zoom: 1; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.rel {
+  position: relative; }
+
+.row {
+  display: flex; }
+
+.col {
+  flex: 1; }
+
+.one-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.line {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-break: break-word; }
+
+.line-one {
+  -webkit-line-clamp: 1; }
+
+.line-two {
+  -webkit-line-clamp: 2; }
+
+@font-face {
+  font-family: 'AvantGardeMdBT';
+  font-style: normal;
+  src: url("http://wpic.yidianchina.com/assets/static/fonts/AvantGardeMdBT.922fb84.woff") format("truetype"); }
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.icon-arrow {
+  width: 20rpx;
+  height: 20rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAABjUlEQVRIx+XW24qOYRQA4Mdm7A44ocgFECUcKY40k9+BbEYhXMi6gpXrwIhGUmoy2ZxQSjaRyA2QbVLKrhx8L00T+Tb/95/MOl6rp/Xu1stCi0VNkjPzDHZgMiI+d4EXN8zfhgnMZObqUcKTuIXduJ6Za0YCR8QXHMAsdmG2Ld5oj39HZq7EFezDA0xExMfe4YIvL/h+PCz4h7r1Tff4T0TEVxzCNezEzcxc2ztc8G+qA3cV23EjM9fVqW291HMjM5fhAo7gGfZGxJveOp7X+XFMYytuZ+b63uGCf8cJXMSWgm/oHS74D5xULfvmgm/sHS74T5zGOWzCnZHAdWPocGYuwVmcwkvs+VveUK7TPPQ8juGF6lq96hXOzDFM4SieF/T1v/KH+YBMqV6xWg9IZ7igl3AQTzAeEW//V9cJLui0akY/Vk2od3VqhzUWHxX0fd36th+BFQUdaPkRaHyPM3OVagwOcF+1p43Qxh3PQcdxD4OI+NRm1Zp2fLmgd7ugsLRh/lOM4XDXD/3Ci1/2CIeA2Bi6jgAAAABJRU5ErkJggg==); }
